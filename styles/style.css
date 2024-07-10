@@ -1,0 +1,181 @@
+.azeret-mono-ormal {
+    font-family: "Azeret Mono";
+    font-weight: normal;
+    font-style: normal;
+    text-align: center;
+  }
+
+#hero{
+    height: 652px;
+    background-image: url(../assets/Hero-bg.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+    
+
+#hero .hero-content .content-img{
+    align-items: center;
+}
+
+#hero .hero-content{
+    width: 685px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+#hero .title{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 28px;
+font-weight: 800;
+line-height: 50px;
+letter-spacing: 0%;
+text-align: center;
+
+}
+#hero .description{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: justify;
+opacity: 0.7;
+
+
+
+}
+
+.btn-primary{
+    background-color: rgb(13, 19, 33);
+    color: white;
+    width: 208px;
+    height: 66px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.container .container-title{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 32px;
+font-weight: 800;
+line-height: 37px;
+letter-spacing: 0%;
+text-align: center;
+}
+.container .container-description{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.7;
+}
+
+/* card box style */
+#card-box{
+align-items: center;
+padding: 80px 97px 80px 97px;
+border-radius: 16px;
+background:rgba(13, 19, 33, 0.02);
+border-radius: 16px;
+margin: 152px;
+ 
+
+
+}
+.parent{
+
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 0px;
+border-radius: 16px;
+background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+margin: 32px 0px;
+}
+.parent1{
+    display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+padding: 0px;
+margin: 98px;
+text-align: justify;
+
+}
+.parent .child-btn{
+    box-sizing: border-box;
+border: 1px solid rgb(13, 19, 33);
+opacity: 0.7;
+}
+
+.parent2{
+    display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 32px;
+border-radius: 16px;
+border-radius: 16px;
+background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+text-align: right;
+
+
+}
+
+.parent3{
+    display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+padding: 0px;
+margin-left: 32px;
+text-align: justify;
+}
+
+.btn2{
+    box-sizing: border-box;
+border: 1px solid rgb(13, 19, 33);
+opacity: 0.7;
+font-size: xx-large;
+}
+
+.group4{
+    text-align: left;
+    margin-right: 60px;
+}
+
+.group{
+
+   border-radius: 16px;
+background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+padding: 48px;
+display: flex;
+
+justify-content: space-between;
+align-items: center;
+padding: 48px;
+margin-top: 38px;
+}
+
+
+
+
+
+
