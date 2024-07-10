@@ -85,15 +85,18 @@ opacity: 0.7;
 /* card box style */
 #card-box{
 align-items: center;
-padding: 80px 97px 80px 97px;
+padding: 30px 97px 80px 97px;
 border-radius: 16px;
 background:rgba(13, 19, 33, 0.02);
 border-radius: 16px;
 margin: 152px;
+
+
  
 
 
 }
+
 .parent{
 
 display: flex;
@@ -172,6 +175,21 @@ justify-content: space-between;
 align-items: center;
 padding: 48px;
 margin-top: 38px;
+}
+
+#card-box .card-text{
+    margin-top: 0px;
+
+}
+
+.video{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+border: 20px;
+padding: 48px;
+gap: 20px
+;
 }
 
 
